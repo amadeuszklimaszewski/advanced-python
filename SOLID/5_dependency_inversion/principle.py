@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from enum import Enum, auto
-from abc import ABC, abstractmethod, abstractproperty
+from abc import ABC, abstractmethod
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 # PRINCIPLE : Dependency inversion                            #
@@ -73,7 +73,8 @@ class Authorizer(ABC):
     def verify_code(self, code: int) -> None:
         pass
 
-    @abstractproperty
+    @property
+    @abstractmethod
     def is_authorized(self) -> bool:
         pass
 
