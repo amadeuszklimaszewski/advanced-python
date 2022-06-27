@@ -34,7 +34,7 @@ class Subsystem1:
 
 class Subsystem2:
     def operation1(self) -> str:
-        return "Subsystem2: operaion1"
+        return "Subsystem2: operation1"
 
     def operation_b(self) -> str:
         return "Subsystem2: operation_b"
