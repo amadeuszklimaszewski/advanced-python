@@ -11,7 +11,7 @@ from abc import ABC, abstractmethod
 
 class Creator(ABC):
     @abstractmethod
-    def factory_method(self):
+    def factory_method(self) -> Product:
         pass
 
     def some_operation(self) -> str:
