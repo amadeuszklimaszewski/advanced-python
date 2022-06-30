@@ -1,11 +1,13 @@
-# Data classes are just regular classes that are geared towards storing state, rather than containing a lot of logic.
-# Every time you create a class that mostly consists of attributes, you make a data class.
+"""
+Data classes are just regular classes that are geared towards storing state, rather than containing a lot of logic.
+Every time you create a class that mostly consists of attributes, you make a data class.
 
-# What the dataclasses module does is to make it easier to create data classes.
-# It takes care of a lot of boilerplate for you.
+What the dataclasses module does is to make it easier to create data classes.
+It takes care of a lot of boilerplate for you.
 
-# This is especially useful when your data class must be hashable; because this requires a __hash__ method as well as an __eq__ method.
-# If you add a custom __repr__ method for ease of debugging, that can become quite verbose.
+This is especially useful when your data class must be hashable; because this requires a __hash__ method as well as an __eq__ method.
+If you add a custom __repr__ method for ease of debugging, that can become quite verbose.
+"""
 
 from dataclasses import dataclass
 

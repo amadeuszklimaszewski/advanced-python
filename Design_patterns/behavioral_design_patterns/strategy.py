@@ -1,11 +1,13 @@
-# The strategy method is Behavioral Design pattern that allows
-# you to define the complete family of algorithms, encapsulates
-# each one and putting each of them into separate classes and also
-# allows to interchange there objects. It is implemented in Python
-# by dynamically replacing the content of a method defined inside
-# a class with the contents of functions defined outside of the
-# class. It enables selecting the algorithm at run-time. This
-# method is also called as Policy Method.
+"""
+The strategy method is Behavioral Design pattern that allows
+you to define the complete family of algorithms, encapsulates
+each one and putting each of them into separate classes and also
+allows to interchange there objects. It is implemented in Python
+by dynamically replacing the content of a method defined inside
+a class with the contents of functions defined outside of the
+class. It enables selecting the algorithm at run-time. This
+method is also called as Policy Method.
+"""
 
 from __future__ import annotations
 from abc import ABC, abstractmethod

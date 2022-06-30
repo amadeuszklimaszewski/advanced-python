@@ -1,10 +1,11 @@
-# Visitor Method is a Behavioral Design Pattern which allows us to
-# separate the algorithm from an object structure on which it operates.
-# It helps us to add new features to an existing class hierarchy
-# dynamically without changing it. Similarly, it is used when we
-# have to perform an operation on a group of similar kinds of
-# objects.
-
+"""
+Visitor Method is a Behavioral Design Pattern which allows us to
+separate the algorithm from an object structure on which it operates.
+It helps us to add new features to an existing class hierarchy
+dynamically without changing it. Similarly, it is used when we
+have to perform an operation on a group of similar kinds of
+objects.
+"""
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List

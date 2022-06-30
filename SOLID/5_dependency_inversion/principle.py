@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from enum import Enum, auto
 from abc import ABC, abstractmethod
 
+"""
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 # PRINCIPLE : Dependency inversion                            #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
@@ -14,6 +15,7 @@ from abc import ABC, abstractmethod
 # be dependent on low-level methods but both should depend on #
 # a third interface.                                          #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
+"""
 
 
 class InvalidPaymentTypeException(Exception):

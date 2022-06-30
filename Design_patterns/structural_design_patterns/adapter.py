@@ -1,11 +1,13 @@
-# Adapter method helps us in making the incompatible objects adaptable to each other.
-# The Adapter method is one of the easiest methods to understand because we have a lot
-# of real-life examples that show the analogy with it. The main purpose of this method
-# is to create a bridge between two incompatible interfaces. This method provides a
-# different interface for a class. We can more easily understand the concept by thinking
-# about the Cable Adapter that allows us to charge a phone somewhere that has outlets in
-# different shapes. Using this idea, we can integrate the classes that couldn’t be
-# integrated due to interface incompatibility.
+"""
+Adapter method helps us in making the incompatible objects adaptable to each other.
+The Adapter method is one of the easiest methods to understand because we have a lot
+of real-life examples that show the analogy with it. The main purpose of this method
+is to create a bridge between two incompatible interfaces. This method provides a
+different interface for a class. We can more easily understand the concept by thinking
+about the Cable Adapter that allows us to charge a phone somewhere that has outlets in
+different shapes. Using this idea, we can integrate the classes that couldn’t be
+integrated due to interface incompatibility.
+"""
 
 
 class Target:

@@ -1,11 +1,13 @@
-# The Proxy method is Structural design pattern that allows you to provide
-# the replacement for an another object. Here, we use different classes to
-# represent the functionalities of another class. The most important part
-# is that here we create an object having original object functionality to
-# provide to the outer world.
+"""
+The Proxy method is Structural design pattern that allows you to provide
+the replacement for an another object. Here, we use different classes to
+represent the functionalities of another class. The most important part
+is that here we create an object having original object functionality to
+provide to the outer world.
 
-# The meaning of word Proxy is “in place of” or “on behalf of” that
-#  directly explains the Proxy Method.
+The meaning of word Proxy is “in place of” or “on behalf of” that directly 
+explains the Proxy Method.
+"""
 
 from abc import ABC, abstractmethod
 

@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from enum import Enum, auto
 from abc import ABC, abstractmethod
 
+"""
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 # PRINCIPLE : Interface segregation                           #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
@@ -12,6 +13,7 @@ from abc import ABC, abstractmethod
 # more specific, rather than generic. Create more interfaces  #
 # if needed and/or provide objects to constructors.           #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
+"""
 
 
 class InvalidPaymentTypeException(Exception):

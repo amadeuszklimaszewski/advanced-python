@@ -1,12 +1,14 @@
-# Iterator method is a Behavioral Design Pattern that allows us
-# to traverse the elements of the collections without taking the
-# exposure of in-depth details of the elements. It provides a way
-# to access the elements of complex data structure sequentially
-# without repeating them.
+"""
+Iterator method is a Behavioral Design Pattern that allows us
+to traverse the elements of the collections without taking the
+exposure of in-depth details of the elements. It provides a way
+to access the elements of complex data structure sequentially
+without repeating them.
 
-# According to GangOfFour, Iterator Pattern is used ” to access
-# the elements of an aggregate object sequentially without exposing
-# its underlying implementation”.
+According to GangOfFour, Iterator Pattern is used ” to access
+the elements of an aggregate object sequentially without exposing
+its underlying implementation”.
+"""
 
 from __future__ import annotations
 from collections.abc import Iterable, Iterator

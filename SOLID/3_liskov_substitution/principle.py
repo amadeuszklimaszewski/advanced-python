@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from enum import Enum, auto
 from abc import ABC, abstractmethod
 
+"""
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 # PRINCIPLE : Liskov substitution                             #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
@@ -14,6 +15,7 @@ from abc import ABC, abstractmethod
 # anything to use the subclass.                               #
 # Define constructor arguments to keep inheritance flexible.  #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
+"""
 
 
 class InvalidPaymentTypeException(Exception):

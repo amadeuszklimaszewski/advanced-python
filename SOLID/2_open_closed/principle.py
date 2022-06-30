@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from enum import Enum, auto
 from abc import ABC, abstractmethod
 
+"""
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 # PRINCIPLE : Open-closed                                     #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
@@ -12,6 +13,7 @@ from abc import ABC, abstractmethod
 # have already written to accommodate new functionality,      #
 #  but simply add what you now need..                         #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
+"""
 
 
 class InvalidPaymentTypeException(Exception):

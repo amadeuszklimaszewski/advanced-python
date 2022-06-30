@@ -1,22 +1,24 @@
-# Chain of Responsibility method is Behavioral design pattern and
-# it is the object-oriented version of if … elif … elif … else and
-# make us capable to rearrange the condition-action blocks dynamically
-# at the run-time. It allows us to pass the requests along the chain
-# of handlers. The processing is simple, whenever any handler received
-# the request it has two choices either to process it or pass it to
-# the next handler in the chain.
+"""
+Chain of Responsibility method is Behavioral design pattern and
+it is the object-oriented version of if … elif … elif … else and
+make us capable to rearrange the condition-action blocks dynamically
+at the run-time. It allows us to pass the requests along the chain
+of handlers. The processing is simple, whenever any handler received
+the request it has two choices either to process it or pass it to
+the next handler in the chain.
 
-# This pattern aims to decouple the senders of a request from its
-# receivers by allowing the request to move through chained receivers
-# until it is handled.
+This pattern aims to decouple the senders of a request from its
+receivers by allowing the request to move through chained receivers
+until it is handled.
 
 
-# there’s a slightly different approach (and it’s a bit more canonical)
-# in which, upon receiving a request, a handler decides whether it can
-# process it. If it can, it doesn’t pass the request any further. So it’s
-# either only one handler that processes the request or none at all. This
-# approach is very common when dealing with events in stacks of elements
-# within a graphical user interface.
+there’s a slightly different approach (and it’s a bit more canonical)
+in which, upon receiving a request, a handler decides whether it can
+process it. If it can, it doesn’t pass the request any further. So it’s
+either only one handler that processes the request or none at all. This
+approach is very common when dealing with events in stacks of elements
+within a graphical user interface.
+"""
 
 from __future__ import annotations
 from abc import ABC, abstractmethod

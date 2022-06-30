@@ -1,9 +1,11 @@
-from abc import ABC, abstractmethod
+"""
+Abstract classes are classes that contain one or more abstract methods.
+An abstract method is a method that is declared, but contains no implementation.
+Abstract classes cannot be instantiated, and require subclasses to provide
+implementations for the abstract methods.
+"""
 
-# Abstract classes are classes that contain one or more abstract methods.
-# An abstract method is a method that is declared, but contains no implementation.
-# Abstract classes cannot be instantiated, and require subclasses to provide
-# implementations for the abstract methods.
+from abc import ABC, abstractmethod
 
 
 class MediaLoader(ABC):

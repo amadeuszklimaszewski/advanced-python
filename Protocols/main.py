@@ -1,10 +1,12 @@
-# Protocols are the essence of how duck typing works:
-# when two classes have the same batch of methods,
-# they both adhere to a common protocol.
+"""
+Protocols are the essence of how duck typing works:
+when two classes have the same batch of methods,
+they both adhere to a common protocol.
 
-# Any time we see classes with similar methods,
-# there's a common protocol; this may be formalized
-# with a type hint.
+Any time we see classes with similar methods,
+there's a common protocol; this may be formalized
+with a type hint.
+"""
 
 
 from dataclasses import dataclass

@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from enum import Enum, auto
 
+"""
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
 # PRINCIPLE : Single responsibility                           #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
@@ -9,6 +10,7 @@ from enum import Enum, auto
 # In other words, make things (classes, functions, etc.)      #
 # responsible for fulfilling one and only one type of role.   #
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- #
+"""
 
 
 class InvalidPaymentTypeException(Exception):

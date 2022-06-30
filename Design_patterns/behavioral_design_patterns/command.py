@@ -1,12 +1,14 @@
-# Command Method is Behavioral Design Pattern that encapsulates a request
-# as an object, thereby allowing for the parameterization of clients
-# with different requests and the queuing or logging of requests.
-# Parameterizing other objects with different requests in our analogy
-# means that the button used to turn on the lights can later be used
-# to turn on stereo or maybe open the garage door. It helps in promoting
-# the “invocation of a method on an object” to full object status.
-# Basically, it encapsulates all the information needed to perform an
-# action or trigger an event.
+"""
+Command Method is Behavioral Design Pattern that encapsulates a request
+as an object, thereby allowing for the parameterization of clients
+with different requests and the queuing or logging of requests.
+Parameterizing other objects with different requests in our analogy
+means that the button used to turn on the lights can later be used
+to turn on stereo or maybe open the garage door. It helps in promoting
+the “invocation of a method on an object” to full object status.
+Basically, it encapsulates all the information needed to perform an
+action or trigger an event.
+"""
 
 from __future__ import annotations
 from abc import ABC, abstractmethod

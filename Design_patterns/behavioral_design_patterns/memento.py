@@ -1,9 +1,11 @@
-# Memento Method is a Behavioral Design pattern which provides
-# the ability to restore an object to its previous state. Without
-# revealing the details of concrete implementations, it allows you
-# to save and restore the previous version of the object. It tries
-# not to disturb the encapsulation of the code and allows you to
-# capture and externalize an object’s internal state.
+"""
+Memento Method is a Behavioral Design pattern which provides
+the ability to restore an object to its previous state. Without
+revealing the details of concrete implementations, it allows you
+to save and restore the previous version of the object. It tries
+not to disturb the encapsulation of the code and allows you to
+capture and externalize an object’s internal state.
+"""
 
 from __future__ import annotations
 from abc import ABC, abstractmethod

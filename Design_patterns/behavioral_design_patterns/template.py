@@ -1,12 +1,14 @@
-# The Template method is a Behavioral Design Pattern that defines the
-# skeleton of the operation and leaves the details to be implemented by
-# the child class. Its subclasses can override the method implementations
-# as per need but the invocation is to be in the same way as defined by
-# an abstract class. It is one of the easiest among the Behavioral design
-# pattern to understand and implements. Such methods are highly used in
-# framework development as they allow us to reuse the single piece of
-# code at different places by making certain changes. This leads to
-# avoiding code duplication also.
+"""
+The Template method is a Behavioral Design Pattern that defines the
+skeleton of the operation and leaves the details to be implemented by
+the child class. Its subclasses can override the method implementations
+as per need but the invocation is to be in the same way as defined by
+an abstract class. It is one of the easiest among the Behavioral design
+pattern to understand and implements. Such methods are highly used in
+framework development as they allow us to reuse the single piece of
+code at different places by making certain changes. This leads to
+avoiding code duplication also.
+"""
 
 from abc import ABC, abstractmethod
 

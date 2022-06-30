@@ -1,10 +1,12 @@
-# Mediator Method is a Behavioral Design Pattern that allows us to
-# reduce the unordered dependencies between the objects. In a mediator
-# environment, objects take the help of mediator objects to communicate
-# with each other. It reduces coupling by reducing the dependencies
-# between communicating objects. The mediator works as a router between
-# objects and it can have it’s own logic to provide a way of
-# communication.
+"""
+Mediator Method is a Behavioral Design Pattern that allows us to
+reduce the unordered dependencies between the objects. In a mediator
+environment, objects take the help of mediator objects to communicate
+with each other. It reduces coupling by reducing the dependencies
+between communicating objects. The mediator works as a router between
+objects and it can have it’s own logic to provide a way of
+communication.
+"""
 
 from __future__ import annotations
 from abc import ABC
